@@ -56,6 +56,17 @@ This repository contains my projects and tasks completed during my **Web Develop
 
 ### 🔴 Level 3
 
+#### Task 1 - Build a Full-Stack CRUD Application
+
+• Set up a back-end server with Express or Django.
+• Create a REST API to handle CRUD operations.
+• Build a front-end with React or Vue that interacts with
+the back-end API.
+• Use a database (e.g., MongoDB, PostgreSQL) to store
+data.
+• Tools: Node.js, Express, or Django, React/Vue,
+MongoDB/PostgreSQL.
+
 #### Task 2 — User Authentication System
 
 * Implemented user registration and login.
