@@ -22,7 +22,7 @@ The internship has provided me with hands-on experience in designing, developing
 | Level | Task | Project | Status |
 |------|------|---------|--------|
 | 🟢 Level 1 | Task 1 | Simple Static Website | ✅ Completed |
-| 🟢 Level 1 | Task 2 | Portfolio Webpage | ✅ Completed |
+| 🟢 Level 1 | Task 2 | Portfolio Webpage | 🔄 In Progress |
 | 🔵 Level 2 | Task 1 | Responsive Web Design with Flexbox & Grid | 🔄 In Progress |
 | 🔵 Level 2 | Task 2 | To-Do List Application | 🔄 In Progress |
 | 🔴 Level 3 | Task 1 | Full-Stack CRUD Application | 🔄 In Progress |
