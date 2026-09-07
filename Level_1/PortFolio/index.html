@@ -6,230 +6,357 @@
 
     <title>Muskan | Full Stack Developer</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Muskan - Full Stack Developer, MERN Stack Developer and Computer Science Engineering student.">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+<!-- ================= BOOT SCREEN ================= -->
 
-    <header>
-        <nav class="navbar">
+<div id="boot-screen">
 
-            <div class="logo">
-                Muskan<span>.</span>
-            </div>
+    <div class="boot-logo">
+        <i class="fa-solid fa-cat"></i>
+    </div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <h2>BOOTING SYSTEM <span>•••</span></h2>
 
-        </nav>
-    </header>
+    <p>
+        Hang tight! Preparing something awesome<br>
+        for you.
+    </p>
+
+    <div class="loader">
+        <div class="loader-bar"></div>
+    </div>
+
+</div>
 
 
-    <!-- ================= HERO ================= -->
+<!-- ================= MAIN WEBSITE ================= -->
 
-    <section id="home" class="hero">
+<div id="website">
 
-        <div class="hero-content">
+    <!-- NAVBAR -->
 
-            <p class="small-heading">HELLO, I'M</p>
+    <nav class="navbar">
 
-            <h1>Muskan <span>Rajput</span></h1>
-
-            <h2>Full Stack Web Developer</h2>
-
-            <p class="hero-description">
-                I build responsive, modern and user-friendly web applications
-                using modern web technologies and creative problem solving.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">
-                    View My Work
-                </a>
-
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
-                </a>
-            </div>
-
+        <div class="logo">
+            <span class="green">●</span> Muskan.dev
         </div>
 
-        <div class="hero-image">
-            <div class="circle">
-                <span>&lt;/&gt;</span>
-            </div>
+        <div class="nav-center">
+            <span>building projects with love</span>
         </div>
 
-    </section>
+        <div class="nav-right">
+            <span>
+                <i class="fa-solid fa-location-dot"></i>
+                Punjab, India
+            </span>
 
-
-    <!-- ================= ABOUT ================= -->
-
-    <section id="about" class="section">
-
-        <div class="section-title">
-            <p>GET TO KNOW ME</p>
-            <h2>About <span>Me</span></h2>
+            <span>
+                <i class="fa-regular fa-clock"></i>
+                <span id="clock"></span>
+            </span>
         </div>
 
-        <div class="about-container">
+    </nav>
 
-            <div class="about-text">
 
-                <h3>Passionate about building for the web.</h3>
+    <main class="container">
 
-                <p>
-                    I am a Computer Science Engineering student passionate
-                    about web development and software engineering. I enjoy
-                    transforming ideas into functional and visually appealing
-                    digital experiences.
-                </p>
 
-                <p>
-                    My main focus is full-stack development, where I work with
-                    both frontend and backend technologies to create complete
-                    web applications.
-                </p>
+        <!-- ================= PROFILE ================= -->
 
-                <a href="#contact" class="btn primary-btn">
-                    Let's Connect
-                </a>
+        <section class="profile terminal-box">
 
-            </div>
+            <div class="profile-top">
 
-            <div class="about-card">
+                <img
+                    src="assets/profile.jpg"
+                    alt="Muskan"
+                    class="profile-image">
 
-                <div class="info-box">
-                    <h4>01</h4>
-                    <p>Creative Problem Solving</p>
-                </div>
+                <div class="profile-info">
 
-                <div class="info-box">
-                    <h4>02</h4>
-                    <p>Responsive Web Design</p>
-                </div>
+                    <h1>
+                        Muskan
+                        <span class="verified">●</span>
+                    </h1>
 
-                <div class="info-box">
-                    <h4>03</h4>
-                    <p>Full Stack Development</p>
+                    <p class="username">@muskan</p>
+
+                    <p class="bio">
+                        Hey! I'm a <strong>Full-Stack Developer</strong> and
+                        final-year Computer Science student focused on building
+                        scalable, responsive and production-ready web
+                        applications.
+                    </p>
+
+                    <p class="bio">
+                        I specialize in the <strong>MERN ecosystem</strong> —
+                        developing responsive interfaces with React,
+                        building robust REST APIs using Node.js and Express,
+                        and designing efficient MongoDB databases.
+                    </p>
+
+                    <p class="bio">
+                        Beyond the screen, I love solving problems,
+                        learning new technologies and connecting with
+                        people from the tech community.
+                    </p>
+
                 </div>
 
             </div>
 
-        </div>
 
-    </section>
+            <!-- BUTTONS -->
 
+            <div class="profile-actions">
 
-    <!-- ================= SKILLS ================= -->
+                <a href="https://github.com/" target="_blank" class="action-btn">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
 
-    <section id="skills" class="section skills-section">
+                <a href="https://www.linkedin.com/" target="_blank" class="action-btn">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
 
-        <div class="section-title">
-            <p>WHAT I WORK WITH</p>
-            <h2>My <span>Skills</span></h2>
-        </div>
+                <a href="mailto:yourmail@gmail.com" class="action-btn">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
 
-        <div class="skills-container">
+                <a href="resume.pdf" target="_blank" class="action-btn">
+                    <i class="fa-solid fa-file"></i>
+                    Resume
+                </a>
 
-            <div class="skill-card">
-                <div class="skill-icon">HTML</div>
-                <h3>HTML5</h3>
-                <p>Semantic and accessible web structure.</p>
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">CSS</div>
-                <h3>CSS3</h3>
-                <p>Responsive layouts, animations and modern styling.</p>
+
+            <!-- STATUS -->
+
+            <div class="status-row">
+
+                <span>
+                    <b class="green">▣</b>
+                    Open to Work
+                </span>
+
+                <span>
+                    <b class="green">⌁</b>
+                    MERN Stack
+                </span>
+
+                <span>
+                    <b class="green">◆</b>
+                    Problem Solver
+                </span>
+
+                <span>
+                    <b class="green">⚡</b>
+                    Fast Learner
+                </span>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">JS</div>
-                <h3>JavaScript</h3>
-                <p>Interactive and dynamic web applications.</p>
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section">
+
+            <div class="section-title">
+                <span>[ My Skills ]</span>
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">R</div>
-                <h3>React.js</h3>
-                <p>Component-based modern frontend development.</p>
+            <div class="skills terminal-box">
+
+                <span>⚛ React.js</span>
+                <span>🟢 JavaScript</span>
+                <span>🌐 HTML5</span>
+                <span>🎨 CSS3</span>
+                <span>📱 Responsive Design</span>
+                <span>🟩 Node.js</span>
+                <span>🚂 Express.js</span>
+                <span>🍃 MongoDB</span>
+                <span>🔗 REST APIs</span>
+                <span>🐙 Git</span>
+                <span>🐱 GitHub</span>
+                <span>⚡ C++</span>
+                <span>💻 C</span>
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">N</div>
-                <h3>Node.js</h3>
-                <p>Scalable backend applications and APIs.</p>
+        </section>
+
+
+        <!-- ================= GITHUB ================= -->
+
+        <section class="section">
+
+            <div class="section-title">
+                <span>[ GitHub Activity ]</span>
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">E</div>
-                <h3>Express.js</h3>
-                <p>REST APIs and backend development.</p>
+            <div class="github-box terminal-box">
+
+                <div class="github-stats">
+
+                    <div class="stat">
+                        <strong>150+</strong>
+                        <small>Total Contributions</small>
+                        <small>Aug 2025 - Present</small>
+                    </div>
+
+                    <div class="stat current">
+
+                        <div class="github-circle">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <strong>12</strong>
+
+                        <small>Current Streak</small>
+
+                    </div>
+
+                    <div class="stat">
+
+                        <strong>25</strong>
+                        <small>Longest Streak</small>
+                        <small>2025 - 2026</small>
+
+                    </div>
+
+                </div>
+
+                <div class="github-graph">
+
+                    <div class="graph-row">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="graph-row">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="graph-row">
+                        <span></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span class="active"></span>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">M</div>
-                <h3>MongoDB</h3>
-                <p>Database management for web applications.</p>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section">
+
+            <div class="section-title">
+                <span>[ My Projects ]</span>
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">G</div>
-                <h3>Git & GitHub</h3>
-                <p>Version control and project collaboration.</p>
-            </div>
 
-        </div>
+            <!-- PROJECT 1 -->
 
-    </section>
+            <div class="project terminal-box">
 
-
-    <!-- ================= PROJECTS ================= -->
-
-    <section id="projects" class="section">
-
-        <div class="section-title">
-            <p>MY RECENT WORK</p>
-            <h2>Featured <span>Projects</span></h2>
-        </div>
-
-        <div class="projects-container">
-
-            <!-- Project 1 -->
-
-            <div class="project-card">
-
-                <div class="project-number">01</div>
+                <img src="assets/project1.png" alt="Airbnb Clone">
 
                 <div class="project-content">
 
-                    <h3>Airbnb Clone</h3>
+                    <div class="project-heading">
+
+                        <h3>Airbnb Clone</h3>
+
+                        <div>
+                            <a href="#" class="mini-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="#" class="mini-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
 
                     <p>
-                        A full-stack accommodation listing platform inspired
-                        by Airbnb with listing management, authentication
-                        and responsive UI.
+                        A full-stack Airbnb-inspired web application built
+                        using the MERN stack with authentication, listings,
+                        reviews and responsive UI.
                     </p>
 
-                    <div class="project-tags">
-                        <span>MongoDB</span>
-                        <span>Express</span>
+                    <div class="tags">
                         <span>React</span>
                         <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>JWT</span>
                     </div>
 
                 </div>
@@ -237,26 +364,82 @@
             </div>
 
 
-            <!-- Project 2 -->
+            <!-- PROJECT 2 -->
 
-            <div class="project-card">
+            <div class="project terminal-box">
 
-                <div class="project-number">02</div>
+                <img src="assets/project2.png" alt="AI Resume Critiquer">
 
                 <div class="project-content">
 
-                    <h3>Wanderlust</h3>
+                    <div class="project-heading">
+
+                        <h3>AI Resume Critiquer</h3>
+
+                        <div>
+                            <a href="#" class="mini-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="#" class="mini-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
 
                     <p>
-                        A travel listing web application where users can
-                        explore, create and manage travel destinations with
-                        interactive maps.
+                        AI-powered resume analysis application that provides
+                        feedback and improvement suggestions for job seekers.
                     </p>
 
-                    <div class="project-tags">
+                    <div class="tags">
+                        <span>Streamlit</span>
+                        <span>OpenAI</span>
+                        <span>Python</span>
+                        <span>AI</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project terminal-box">
+
+                <img src="assets/project3.png" alt="Wanderlust">
+
+                <div class="project-content">
+
+                    <div class="project-heading">
+
+                        <h3>Wanderlust</h3>
+
+                        <div>
+                            <a href="#" class="mini-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="#" class="mini-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        A travel listing platform where users can explore,
+                        create and manage travel destinations with maps,
+                        categories and authentication.
+                    </p>
+
+                    <div class="tags">
                         <span>Node.js</span>
                         <span>Express</span>
                         <span>MongoDB</span>
+                        <span>EJS</span>
                         <span>Leaflet</span>
                     </div>
 
@@ -265,120 +448,227 @@
             </div>
 
 
-            <!-- Project 3 -->
+            <!-- PROJECT 4 -->
 
-            <div class="project-card">
+            <div class="project terminal-box">
 
-                <div class="project-number">03</div>
+                <img src="assets/project4.png" alt="Security Dashboard">
 
                 <div class="project-content">
 
-                    <h3>AI Resume Critiquer</h3>
+                    <div class="project-heading">
 
-                    <p>
-                        An AI-powered application that analyzes resumes and
-                        provides useful feedback to improve content and
-                        presentation.
-                    </p>
+                        <h3>Security Dashboard</h3>
 
-                    <div class="project-tags">
-                        <span>AI</span>
-                        <span>Streamlit</span>
-                        <span>OpenAI</span>
+                        <div>
+                            <a href="#" class="mini-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="#" class="mini-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
                     </div>
 
-                </div>
-
-            </div>
-
-
-            <!-- Project 4 -->
-
-            <div class="project-card">
-
-                <div class="project-number">04</div>
-
-                <div class="project-content">
-
-                    <h3>Bank Cyber Security</h3>
-
                     <p>
-                        A security-focused application designed to detect
-                        privileged access misuse and identify potential
-                        insider threats in banking systems.
+                        A banking security dashboard for monitoring
+                        privileged access, suspicious activities, audit logs
+                        and security alerts in real time.
                     </p>
 
-                    <div class="project-tags">
+                    <div class="tags">
                         <span>React</span>
                         <span>Node.js</span>
-                        <span>MongoDB</span>
+                        <span>Express</span>
                         <span>Socket.IO</span>
+                        <span>JWT</span>
                     </div>
 
                 </div>
 
             </div>
 
-        </div>
 
-    </section>
+            <div class="more-projects">
+                <a href="https://github.com/" target="_blank">
+                    More Projects →
+                </a>
+            </div>
+
+        </section>
 
 
-    <!-- ================= CONTACT ================= -->
+        <!-- ================= ACHIEVEMENTS ================= -->
 
-    <section id="contact" class="section contact-section">
+        <section class="section">
 
-        <div class="section-title">
-            <p>GET IN TOUCH</p>
-            <h2>Let's <span>Connect</span></h2>
-        </div>
+            <div class="section-title">
+                <span>[ Achievements ]</span>
+            </div>
 
-        <div class="contact-container">
+            <div class="achievements terminal-box">
 
-            <div class="contact-text">
+                <div class="achievement">
 
-                <h3>Have a project in mind?</h3>
+                    <div class="achievement-icon green-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+
+                    <div>
+                        <h3>Placement Coordinator</h3>
+                        <p>Rayat Bahra Professional University</p>
+                    </div>
+
+                    <span>2025 - Present</span>
+
+                </div>
+
+
+                <div class="achievement">
+
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-medal"></i>
+                    </div>
+
+                    <div>
+                        <h3>2nd Runner Up — Cognizance 2026</h3>
+                        <p>Inter-college technical competition</p>
+                    </div>
+
+                    <span>2026</span>
+
+                </div>
+
+
+                <div class="achievement">
+
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+
+                    <div>
+                        <h3>Hackathon Participant</h3>
+                        <p>FinSparks / KAVACH Enterprise</p>
+                    </div>
+
+                    <span>2026</span>
+
+                </div>
+
+
+                <div class="achievement">
+
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div>
+                        <h3>5★ C & 3★ C++ — HackerRank</h3>
+                        <p>Problem Solving & Programming</p>
+                    </div>
+
+                    <span>2026</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PHILOSOPHY ================= -->
+
+        <section class="section">
+
+            <div class="section-title">
+                <span>[ personal_philosophy ]</span>
+            </div>
+
+            <div class="quote terminal-box">
+
+                <span class="quote-symbol">~</span>
 
                 <p>
-                    I'm always interested in learning, building new projects
-                    and connecting with people in technology.
+                    I may be hard on myself, my smile proudly,
+                    and my determination quietly.
+                    That's how I turn dreams into reality.
                 </p>
 
-            </div>
-
-            <div class="contact-info">
-
-                <div class="contact-item">
-                    <h4>Email</h4>
-                    <p>m13347555@gmail.com</p>
-                </div>
-
-                <div class="contact-item">
-                    <h4>GitHub</h4>
-                    <p>github.com/Muskan377750</p>
-                </div>
-
-                <div class="contact-item">
-                    <h4>LinkedIn</h4>
-                    <p>linkedin.com/in/Muskan2003dev</p>
-                </div>
+                <strong>— MUSKAN</strong>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= FOOTER ================= -->
+        <!-- ================= CONTACT ================= -->
 
-    <footer>
+        <section class="connect terminal-box">
 
-        <p>
-            © 2026 Muskan. Built with HTML & CSS.
-        </p>
+            <h2>
+                <span class="green">●</span>
+                Let's Connect
+            </h2>
 
-    </footer>
+            <p>
+                Feel free to reach out through any of these platforms.
+                I'm always open to discussing new projects,
+                creative ideas, or opportunities.
+            </p>
+
+            <div class="socials">
+
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                    Twitter
+                </a>
+
+                <a href="https://github.com/" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a href="mailto:yourmail@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <p>
+                <span class="green">›</span>
+                Still debugging, still growing.
+            </p>
+
+            <small>
+                Designed & built with ♥ by Muskan
+            </small>
+
+            <small>
+                © 2026 All rights reserved.
+            </small>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
